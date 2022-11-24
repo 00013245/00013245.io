@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podium Italia</title>
+    <link rel="stylesheet" href="css\style.css">
+    <script src="js\scripts.js"></script>
+</head>
+<!-- Html Code -->
+<hr>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <a href="">
+                <img src="img\logo.png" alt="missing">
+            </a>
+                <nav> <!-- Simple navigation -->
+                <ul class="ul" id="ul">
+                    <li><a href="Brands.html">Brands</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="Vacancy.html">Vacancy</a></li>
+                </nav>
+                </ul>
+            </div>
+        </header>
+            <div id="text">
+                
+            </div>
+
+<!-- Js animaton like a welcome to web site -->
+            <script type="text/javascript">
+                var i=0,text;
+                text="Podium Italia best shop in Tashkent"
+                
+                function typing ()
+                {
+                    if(i<text.length)
+                    {
+                        document.getElementById("text").innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(typing,50)
+                    }
+                }
+                typing();
+                </script>
+
+
+            <div class="main-image">
+            <img src="img\3.jpeg" alt="missing" width="600">
+        </div>
+<hr>
+        <!-- Some info about goods -->
+        <div class="Man-clothes" >
+            <h2>For him</h2>
+            <img src="img\1.jpg" alt="missing" width="350" height="450" >
+            <span class="description-m"> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></span>
+            <div class="info-1">
+            <p class="p">Handsome clothes for real man</p>
+            <p class="p1">Price:300$</p>
+            </div>
+            <button class="buy" onclick=""><h4>Buy</h4></button>
+            </button>
+        </div>
+<hr>
+        <div class="Women-clothes" >
+            <h2>For her</h2>
+            <img src="img\2.jpg" alt="missing" width="350" height="450">
+            <span class="description-w"> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></span>
+            <div class="info-2">
+            <p class="p">Pretty clothes for girls</p>
+            <p class="p1">Price:299$</p>
+            </div>
+            <button class="buy" onclick=""><h4>Buy</h4></button>
+        </button>
+                
+        </div>
+
+
+<hr>
+
+ <!-- Footer-->
+<footer class="footer">
+    <span class="contacts"> 
+        <p>Call number +xxx(xx)xxx-xx-xx</p> 
+        <p>Address Street X</p> 
+        <p>Call number +xxx(xx)xxx-xx-xx</p> 
+    </span>
+    <p>
+        “This website was created to fulfill Web Technology
+        module`s requirements and does not represent an actual company or service”. 
+        <a href="">
+        <img src="img\logo.png" alt="missing">   
+    </a>
+    </p>
+    
+</footer>
+   </html>
+
+
